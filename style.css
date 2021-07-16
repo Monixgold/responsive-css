@@ -1,0 +1,41 @@
+.flex {
+    border: 5px solid white;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div {
+    width: 200px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 0px;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+@media screen and (min-width: 900px) {
+    .flex {
+
+    }
+    
+}
+
+.german {
+    border: 5px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
