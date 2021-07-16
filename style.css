@@ -1,4 +1,4 @@
-.flex {
+.left-container {
     border: 5px solid white;
     display:flex;
     align-items: center;
@@ -24,18 +24,25 @@ div {
     background-color: red;
 }
 
-@media screen and (min-width: 900px) {
-    .flex {
 
-    }
+
+@media screen and (max-width: 900px) {
+    .left-container {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 33%;
+        height: 50%;
+   
+}
     
 }
 
-.german {
-    border: 5px solid white;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
+    
+
+
+
+   
+
 
